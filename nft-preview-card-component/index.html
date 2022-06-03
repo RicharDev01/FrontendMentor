@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>NFT preview card component | Frontend Mentor</title>
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- styles  -->
+  <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+
+<body>
+
+  <main class="container">
+
+    <article class="card">
+
+      <!-- seccion de imagen de la carta -->
+      <section class="card-container-image">
+        <img src="./images/image-equilibrium.jpg" 
+        alt="equilibrium image" class="card-image">
+        <div class="card-image-hover">
+          <img src="./images/icon-view.svg" alt="view">
+        </div>
+      </section>
+
+      <!-- seccion de textos descriptivos de la carta -->
+      <section class="card-content">
+        <h1 class="card-title">Equilibrium #3429</h1>
+        <p class="card-text"> Our Equilibrium collection promotes balance and calm.</p>
+      </section>
+
+      <!-- seccion de datos sobre el NFT de la carta -->
+      <section class="card-data">
+        <span class="card-cost">
+          <img src="./images/icon-ethereum.svg" alt="ethereum">
+          0.041 ETH
+        </span>
+        <span class="card-date">
+          <img src="./images/icon-clock.svg" alt="clock">
+          3 days left
+        </span>
+      </section>
+
+      <!-- seccion de pie de carta, informacion del creador del NTF -->
+      <section class="card-footer">
+
+        <img src="./images/image-avatar.png" 
+        alt="profile of the creator" class="card-footer-creator-image">
+        
+        <p class="card-footer-creator-info">
+          <span >Creation of</span>
+          <a href="#" >Jules Wyvern</a>
+        </p>
+
+      </section>
+
+    </article>
+
+  </main>
+
+  <footer class="attribution">
+    Challenge by &nbsp; <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.&nbsp;
+    Coded by &nbsp;<a href="https://github.com/RicharDev01">RicharDev01</a>.
+  </footer>
+
+</body>
+
+</html>
