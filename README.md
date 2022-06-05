@@ -10,3 +10,6 @@ En este repositorio abierto, guardo todos aquellos Retos realizado por mi person
 
 ## 2. **NFT preview card component**
   ![](./nft-preview-card-component/design/desktop-preview.jpg)
+
+## 3. **Order summary card**
+  ![](./order-summary-component-main/design/desktop-preview.jpg)

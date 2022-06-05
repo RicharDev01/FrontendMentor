@@ -1,0 +1,142 @@
+:root {
+  /* primary */
+  --pale-blue: hsl(225, 100%, 94%);
+  --bight-blue: hsl(245, 75%, 52%);
+  --bight-blue-hover: hsl(245, 86%, 66%);
+  
+  /* neutral */
+  --ver-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --white: hsl(0, 0%, 100%);
+
+  --font-family: 'Red Hat Display', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+html {font-size: 62.5%;}
+
+body {
+  background-color: var(--pale-blue);
+  font-family: var(--font-family);
+}
+a {color: var(--bight-blue);}
+
+.pattern {
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height: 50%;
+}
+.pattern img {height: 100%; width: 100%;}
+
+/* mobile 375px */
+.container, .attribution{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.container { height: 95vh; }
+
+/** ************ ************* */
+/** **** card summary **** */
+/** ************ ************* */
+.card-summary {
+  width: 38rem;
+  border-radius: 2rem;
+  height: 60rem;
+
+  background-color: var(--white);
+}
+
+
+/** ************ ************* */
+/** **** card summary header **** */
+/** ************ ************* */
+.card-summary__image {
+  display: inline-block;
+  width: 100%;
+  border-radius: 2rem 2rem 0 0;
+}
+
+
+/** ************ ************* */
+/** **** card summary body **** */
+/** ************ ************* */
+.body {
+  margin: 2rem;
+  text-align: center;
+}
+.card-summary__title {
+  font-size: 3rem;
+  color: var(--dark-blue);
+  margin-bottom: 1.5rem;
+}
+.card-summary__paragraph {
+  color: var(--desaturated-blue);
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+.card-summary__plan-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  background-color: var(--ver-pale-blue);
+}
+.plan-container__description p {
+  color:var(--dark-blue);
+  font-weight: 900;
+}
+.plan-container__description .price {color: var(--desaturated-blue);}
+
+.plan-container__change:hover {
+  text-decoration: none;
+  color: var(--bight-blue-hover);
+}
+
+/** ************ ************* */
+/** **** card summary footer **** */
+/** ************ ************* */
+.card-summary .footer {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+.btn {
+  font-size: 1.8rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  border:none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn--primary {
+  color: var(--white);
+  background-color: var(--bight-blue);
+}
+.btn--flat {
+  background-color: transparent;
+  color: var(--desaturated-blue);
+}
+.btn--primary:hover {background-color: var(--bight-blue-hover);}
+.btn--flat:hover {color: var(--dark-blue);}
+
+/** ************ ************* */
+/** **** page footer **** */
+/** ************ ************* */
+.attribution {
+  height: 5vh;
+}
