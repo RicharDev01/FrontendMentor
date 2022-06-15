@@ -13,3 +13,6 @@ En este repositorio abierto, guardo todos aquellos Retos realizado por mi person
 
 ## 3. **Order summary card**
   ![](./order-summary-component-main/design/desktop-preview.jpg)
+
+## 4. **3-column preview card component**
+  ![](./3-column-preview-card-component-main/design/desktop-preview.jpg)
